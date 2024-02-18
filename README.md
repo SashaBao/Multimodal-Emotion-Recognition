@@ -23,12 +23,14 @@ pip install -r requirements.txt
 |-- notebook # 实验过程中用到的ipynb文件
     |-- process_data # 数据预处理的ipynb文件
 |-- prediction # 每种模型的预测结果
-	|-- BertResEarly # BertResEarly最佳模型的预测结果
+    |-- BertResEarly # BertResEarly最佳模型的预测结果
 |-- saved_model # 训练过程中保存的每种模型的最佳结果
-	|-- BertResEarly # BertResEarly的最佳模型
+    |-- BertResEarly # BertResEarly的最佳模型
+|-- report # 辅助工具
+    |-- report.docx # 本次项目的报告
 |-- utils # 辅助工具
-	|-- generate_dataset.py # 生成训练所需的Dataloader
-	|-- train.py # 与训练有关的函数
+    |-- generate_dataset.py # 生成训练所需的Dataloader
+    |-- train.py # 与训练有关的函数
 |-- main.py # 模型训练评估及预测
 |-- requiremens.txt # 需要的依赖
 |-- test_without_label.txt # 预测后的测试集
